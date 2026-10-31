@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
     </div>
     
-    <Image src={logo} />
+    <Image src={logo} alt="logo.png" />
 <a className="btn btn-ghost text-xl text-amber-50">FITLOG</a>
 
     <div>
