@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import logo from "@/assets/logo.png";
+import Link from 'next/link';
 const Navbar = () => {
     return (
       <nav className=" bg-slate-900 shadow-sm">
@@ -29,7 +30,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-2 items-center">
 
-      <button className="bg-slate-700 text-amber-400 px-2 rounded-2xl">Workouts</button>
+      <Link href="/workouts" className="text-amber-50">Workouts</Link>
       <button className="text-amber-50">My plan</button>
      
     </ul>

@@ -8,7 +8,7 @@ const Banner = () => {
          bg-slate-950 rounded-4xl p-4">
             <div className="space-y-4">
             <h3 className="text-amber-300">WORKOUT LIBRARY</h3>
-            <h2 className="font-bold text-5xl text-amber-50">TRAIN WITH INTENT. LOG <br/> EVERY SET</h2>
+            <h2 className="text-xl font-bold uppercase text-amber-50"> train with intent.log. <br/> every set</h2>
             <p className="text-amber-100">FitLog is a dark, no-nonsense gym companion: pick a lift, lock it into today's plan, and watch the week's work add up</p>
             <button className="btn btn-active btn-warning">BROWSE WORKOUTS</button>
             </div>
